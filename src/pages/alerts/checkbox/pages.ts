@@ -192,13 +192,13 @@ export class CheckboxPage {
       text: 'Ok',
       handler: data => {
         console.log('Radio data:', data);
-        this.testRadioOpen = false;
-        this.testRadioResult = data;
+        //this.testRadioOpen = false;
+        //this.testRadioResult = data;
       }
     });
 
     alert.present().then(() => {
-      this.testRadioOpen = true;
+      //this.testRadioOpen = true;
     });
   }
 
