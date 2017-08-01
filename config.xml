@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<!--<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
+<widget android-versionCode="1" 
+		id="xdk.intel.sample" 
+		ios-CFBundleVersion="1" 
+		version="0.0.1" 
+		xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		xmlns:cdv="http://cordova.apache.org/ns/1.0" 
+		xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Ionic Components</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -12,6 +20,13 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+	<preference name="android-build-tool" value="gradle" />
+	<icon src="www/images/icon.ico" />
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+    </platform>
+    <preference name="phonegap-version" value="cli-6.2.0" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
