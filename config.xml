@@ -26,7 +26,8 @@
     </platform>
     <platform name="ios">
     </platform>
-    <preference name="phonegap-version" value="cli-6.2.0" />
+    <!--<preference name="phonegap-version" value="cli-6.2.0" />-->
+	<preference name="phonegap-version" value="cli-6.4.0" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
